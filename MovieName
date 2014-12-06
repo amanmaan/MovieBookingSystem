@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include<conio.h>
+void generate();
+void main()
+{
+int i,j,c[20];
+int movie[20];
+printf("MOVIE BOOKING SYSTEM ");
+printf("enter moview name ");
+for(i=0;i<10;i++)
+{
+scanf("%d",&movie[i]);
+}
+printf("enterticket no");
+for(j=0;j<10;j++)
+{
+scanf("%d",&c[i]);
+}
+getch();
+}
